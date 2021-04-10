@@ -1,18 +1,47 @@
+*{
+    font-size:14px;
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
 .navbar{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
     align-items:center;
+    padding:20px 10px;
+    margin-right:10px;
 }
 ul{
     display:flex;
     flex-direction:row;
+    align-items:center;
 }
 a{
     text-decoration:none;
+    padding:20px 10px;
+    font-size:14px;
+}
+#apps{
+    width:25px;
+}
+#signIn{
+    background-color:rgb(73, 73, 224);
+    color:#fff;
+    padding:10px 20px;
+    border-radius:5px;
+    font-size:16px
+}
+#signIn:hover{
+    background-color:royalblue
 }
 a:hover{
     text-decoration:underline;
+}
+#apps:hover{
+    background-color:mediumturquoise;
+    box-sizing:border-box;
+    border-radius:50%;
 }
 li{
     list-style:none;
@@ -20,7 +49,28 @@ li{
 .image{
     display:flex;
     justify-content:center;
+    padding:20vh 5px 20px 5px;
 }
 form{
+    display:flex;
+    flex-direction:column;
     
 }
+#buttons{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    padding:20px 10px;
+}
+#country{
+    background-color:lightgray;
+    padding:20px 20px 10px 20px;
+    text-align:start;
+    border-bottom:gray;
+    border-bottom-style:solid;
+    border-width:1px;
+}
+footer{
+    background-color:lightgray;
+}
+
